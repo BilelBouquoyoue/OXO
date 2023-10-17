@@ -1,0 +1,68 @@
+/* Pour le joueur X */
+.playerX {
+    -fx-text-fill: #000080; /* Couleur bleu pour le texte */
+    -fx-background-color: #AFEEEE;	 /* Couleur de fond bleu */
+    -fx-font-size: 400%;/* Taille de la police de 380% */
+}
+
+/* Pour le joueur O */
+.playerO {
+    -fx-text-fill: #AFEEEE; /* Couleur rouge pour le texte */
+    -fx-background-color: #000080; /* Couleur de fond verte */
+    -fx-font-size: 400%;/* Taille de la police de 380% */
+}
+
+/* Classe pour réinitialiser la couleur de fond */
+.reset-color {
+    -fx-background-color: transparent;
+}
+
+/* Style pour le bouton "Nouvelle Partie" */
+.button-new-game {
+    -fx-font-size: 30px;
+    -fx-background-color: #000000	; /* Couleur de fond brune */
+    -fx-text-fill: white; /* Couleur du texte blanc */
+    -fx-padding: 10px 20px; /* Espacement interne */
+    -fx-border-radius: 10px; /* Coins arrondis */
+    -fx-min-width: 600px; /* Largeur minimale du bouton */
+    
+}
+
+.button-new-game:hover {
+    -fx-background-color: #8B0000; /* Couleur de fond au survol */
+}
+
+.button-new-game:pressed {
+    -fx-background-color: #FF0000; /* Couleur de fond lorsque pressé */
+}
+
+.button-regles {
+    -fx-font-size: 30px;
+    -fx-background-color: #000000	; /* Couleur de fond brune */
+    -fx-text-fill: white; /* Couleur du texte blanc */
+    -fx-padding: 10px 20px; /* Espacement interne */
+    -fx-border-radius: 10px; /* Coins arrondis */
+    -fx-min-width: 600px; /* Largeur minimale du bouton */
+}
+
+.button-regles:hover {
+    -fx-background-color: #8B0000; /* Couleur de fond au survol */
+}
+
+.button-regles:pressed {
+    -fx-background-color: #FF0000; /* Couleur de fond lorsque pressé */
+}
+
+
+
+.menu-background {
+    -fx-background-image: url('background.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.play-background {
+    -fx-background-image: url('back-game.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
